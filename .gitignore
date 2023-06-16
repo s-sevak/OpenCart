@@ -1,0 +1,51 @@
+# Ignore cache files
+/system/cache/
+/system/logs/
+
+# Ignore image cache
+/image/cache/
+
+# Ignore session data
+/system/storage/session/
+
+# Ignore upload data
+/system/storage/upload/
+
+# Ignore download data
+/system/storage/download/
+
+# Ignore modification files
+/system/storage/modification/
+
+# Ignore system configuration file
+/config.php
+/admin/config.php
+
+# Ignore vendor folder
+/vendor/
+
+# Ignore composer.lock file
+/composer.lock
+
+# Ignore IDE specific files and folders
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore backup files
+*.bak
+*.swp
+*.~*
+
+# Ignore user-specific configuration files
+/system/storage/userconfig.php
+/admin/config_user.php
+
+# Ignore error logs
+error_log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore any other generated or compiled files
