@@ -1,0 +1,19 @@
+<div class="category-wall">
+    <div class="row">
+        {% for category in categories %}
+            <div class="col-lg-3">
+                <div class="category-wall-item">
+                    <a href="{{ category.href }}">
+                        <img src="image/catalog/test_logo_01.jpg" alt="{{ category.name }}" />
+                        <h3>{{ category.name }}</h3>
+                    </a>
+                    <ul>
+                        {% for child in category.children|slice(0, 3) %}
+                            <li><a href="{{ child.href }}">{{ child.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
